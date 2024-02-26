@@ -17,3 +17,10 @@ nav ul{
 .ShowNav{
     display: none;
 }
+
+#clicked .on {
+    display: none;
+}
+#clicked .off{
+    display:none;
+}
