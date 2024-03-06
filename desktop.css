@@ -1,3 +1,4 @@
+/*HomePage*/
 body{
     display: grid;
     grid-template-columns: 100%;
@@ -12,8 +13,9 @@ body{
 nav ul{
     display: flex;
     justify-content: space-around;
-    list-style: none;
-}
+    list-style: none;}
+
+     
 .ShowNav{
     display: none;
 }
