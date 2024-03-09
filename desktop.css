@@ -40,7 +40,7 @@ main.project{
 }
 
 .ShowNav{
-    display: none;
+    display:block;
 }
 
 #clicked .on {

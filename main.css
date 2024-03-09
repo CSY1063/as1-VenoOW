@@ -2,38 +2,21 @@
     margin: 0;
     padding: 0;
 }
-/*
-header {
-    background-color: #333838;
-    color: rgb(0, 0, 0);
-    padding: 0.1em;
-    grid-area: header;
-}
-nav {
-    background-color: #d5f8f8;
-    padding: 1em;
-    grid-area: nav;
-}
-main {
-    background-color: #d5f8f8;
-    color: rgb(0, 0, 0);
-    grid-area: main;
-}
-aside {
-    background-color: #d5f8f8;
-    grid-area: aside;
-}
-footer {
-    background-color: #28afb0;
-    color: rgb(0, 0, 0);
-    grid-area: footer;
-}
-*/
 
-main p{
+body{
+    font-family: serif;
+}
+
+#clicked > main > p:nth-child(2){
+    padding: 0.5em;
+}
+#clicked > main > p:nth-child(4){
     padding: 0.5em;
 }
 h1{
+    padding: 0.1em;
+}
+h2{
     padding: 0.1em;
 }
 #clicked > main > div > img{
@@ -42,10 +25,27 @@ h1{
     height: auto;
     margin: auto;
 }
+nav{
+    background-color: #febeb0;
+    padding: 1em;
+    grid-area: nav;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 17px;
+}
+nav a:hover{
+    background-color: #f0f0f0;
+}
+footer{
+    background-color: #febeb0;
+    padding: 1em;
+}
 
 body{
     z-index: 1;
-    background: linear-gradient(-45deg, red, green, blue, yellow);
+    background: linear-gradient(-45deg, #28afb0, #d5f8f8, #fae6b1, #c34f5a);
     background-size: 400% 400%;
     width: 100%;
     height: 100vh;
@@ -57,7 +57,6 @@ animation: gradient_background 4s ease-in-out infinite ;
     }
     50%{
         background-position: 100% 50%;
-        background: linear-gradient(-75deg);
     }
     100%{
         background-position: 0% 50%;
