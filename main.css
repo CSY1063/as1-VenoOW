@@ -141,12 +141,5 @@ body > main > div > img:nth-child(4){
     padding: 10px;
     padding-left: 0;
 }
-#clicked > header > a.on{
-    padding-left: 5px;
-    padding-top: 5px;
-}
-#clicked > header > a.off{
-    padding-left: 5px;
-    padding-top: 5px; 
-}
+
 
