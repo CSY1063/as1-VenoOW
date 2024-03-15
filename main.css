@@ -94,6 +94,14 @@ body > main > h1{
     padding: 0.3em;
     margin-left: 20px;
 }
+#clicked > main > h3{
+    margin-left: 20px;
+    padding: 0.2em;
+}
+#clicked > main > h4{
+    margin-left: 20px;
+    padding: 0.2em; 
+}
 body > main > p{
     padding: 0.8em;
     margin-left: 20px;

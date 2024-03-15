@@ -15,7 +15,10 @@ nav ul{
     justify-content: space-around;
     list-style: none;
 }
-
+#clicked > main > h2{
+    margin-left: 7px;
+    padding: 22px;
+}
 
 
 .ShowNav{

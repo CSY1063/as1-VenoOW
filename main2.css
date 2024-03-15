@@ -65,15 +65,19 @@ animation: gradient_background 4s ease-in-out infinite ;
 }
 #clicked > main > div:nth-child(1) > img{
     padding: 10px;
+    margin: 0;
 }
 #clicked > main > div:nth-child(2) > img{
     padding: 10px;
+    margin: 0;
 }
 #clicked > main > div:nth-child(3) > img{
     padding: 10px;
+    margin: 0;
 }
 #clicked > main > div:nth-child(4) > img{
     padding: 10px;
+    margin: 0;
 }
 #clicked > main > div:nth-child(1) > p{
     padding: 10px;
