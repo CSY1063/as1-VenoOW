@@ -100,7 +100,7 @@ body > main > h1{
 }
 #clicked > main > h4{
     margin-left: 20px;
-    padding: 0.2em; 
+    padding: 2em; 
 }
 body > main > p{
     padding: 0.8em;
@@ -117,33 +117,46 @@ body > main > p{
 }
 body > main > div > img:nth-child(1){
     width: 100%;
-    max-width: 145px;
+    max-width: 300px;
     height: 100%;
     padding: 10px;
 }
 body > main > div > img:nth-child(2){
     width: 100%;
-    max-width: 145px;
+    max-width: 300px;
     height: 100%;
     padding: 10px;   
     padding-left: 0;
 }
 body > main > div > img:nth-child(3){
     width: 100%;
-    max-width: 145px;
+    max-width: 300px;
     height: 100%;  
     padding: 10px; 
 }
 body > main > div > img:nth-child(4){
     width: 100%;
-    max-width: 145px;
+    max-width: 300px;
+    height: 100%;   
+    padding: 10px;
+    padding-left: 0;
+}
+#clicked > main > div > img:nth-child(5){
+    width: 100%;
+    max-width: 300px;
+    height: 100%;   
+    padding: 10px;
+}
+#clicked > main > div > img:nth-child(6){
+    width: 100%;
+    max-width: 300px;
     height: 100%;   
     padding: 10px;
     padding-left: 0;
 }
 #clicked > main > iframe{
     height: 50vh;
-    width: 50%;
+    width: 95%;
     border: none;
     padding: 1em;
 }
