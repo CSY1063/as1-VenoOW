@@ -63,3 +63,31 @@ animation: gradient_background 4s ease-in-out infinite ;
         background: linear-gradient(-90deg);
     }
 }
+#clicked > main > div:nth-child(1) > img{
+    padding: 10px;
+}
+#clicked > main > div:nth-child(2) > img{
+    padding: 10px;
+}
+#clicked > main > div:nth-child(3) > img{
+    padding: 10px;
+}
+#clicked > main > div:nth-child(4) > img{
+    padding: 10px;
+}
+#clicked > main > div:nth-child(1) > p{
+    padding: 10px;
+    margin-left: 10px;
+}
+#clicked > main > div:nth-child(2) > p{
+    padding: 10px;
+    margin-left: 10px;
+}
+#clicked > main > div:nth-child(3) > p{
+    padding: 10px;
+    margin-left: 10px;
+}
+#clicked > main > div:nth-child(4) > p{
+    padding: 10px;
+    margin-left: 10px;
+}
