@@ -31,3 +31,7 @@ nav ul{
 #clicked .off{
     display:none;
 }
+#clicked > main > h4{
+    margin-left: 20px;
+    padding: 2em;
+}

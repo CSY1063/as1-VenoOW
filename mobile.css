@@ -116,3 +116,7 @@ body > main > div > img:nth-child(4){
     padding: 10px;
     padding-left: 0;
 }
+#clicked > main > h4{
+    margin-left: 20px;
+    padding: 1em;
+}
